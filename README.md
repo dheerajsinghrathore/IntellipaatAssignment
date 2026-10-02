@@ -1,5 +1,9 @@
 # Intellipaat Assignment
 
+## Use Demo Credentials:
+#### Username: emilys
+#### Password: emilyspass
+
 ## 1. Architecture
 
 The app uses a Clean architecture with MVVM design with Jetpack Compose. Screens render `UiState`, ViewModels handle screen actions and state, and repositories/data sources isolate API access from domain models and use cases. This keeps UI, business rules, and networking easier to change and test independently.
